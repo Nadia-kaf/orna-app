@@ -1,0 +1,37 @@
+.bar {
+   background-color: black;
+   height: 60px;
+   display: inline-flex;
+   width: 100%;
+
+}
+
+.searchContent{
+    width: 15%;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-bottom: 1px solid #575756;
+    border: transparent;
+            
+    color: #575756;
+    background-color: transparent;
+}
+
+ li{
+    color: aliceblue;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    margin-left: 260px;
+    
+}
+
+.video{
+    
+}

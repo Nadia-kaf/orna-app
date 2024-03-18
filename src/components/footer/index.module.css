@@ -1,0 +1,33 @@
+
+.foot{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+}
+
+.gridTwo{
+        background-color:black;
+        color: aliceblue;
+        justify-content: center;
+        gap:  80px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding-left: 20px;
+
+}
+
+.gridOne{
+
+
+        background-image: linear-gradient(#888D94), url(./footer.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+       color:white;
+        
+}
