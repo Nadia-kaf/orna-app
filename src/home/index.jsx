@@ -7,6 +7,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTruck } from "@fortawesome/free-solid-svg-icons";
 import { faRotateLeft, faCreditCard } from "@fortawesome/free-solid-svg-icons";
 import Screenshot2 from "../asset/Screenshot2.png";
+import pic from "../asset/pic.png";
+import pic1 from "../asset/pic1.png";
+import pic5 from "../asset/pic5.png";
+
+import Banner from "../components/banner";
 
 
 
@@ -14,6 +19,7 @@ export default function Home(){
 return(
     <div>
         <Header/>
+        <Banner/>
         <section>
             <h3>Featured Products</h3>
             <p>Eget Est Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -31,9 +37,9 @@ return(
             <h4 className={styles.words}>Instagram Feed</h4>
             <p className={styles.words}>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             <div className={styles.instapics}>
-                <img src="" alt="necklace" />
-                <img src="" alt="earing " />
-                <img src="" alt="anklet" />
+                <img src={pic} alt="necklace" />
+                <img src={pic1} alt="earing " />
+                <img src={pic5} alt="anklet" />
             </div>
             <button>FOLLOW US @INSTAGRAM</button>
         </section>
