@@ -10,6 +10,7 @@ import Screenshot2 from "../asset/Screenshot2.png";
 import pic from "../asset/pic.png";
 import pic1 from "../asset/pic1.png";
 import pic5 from "../asset/pic5.png";
+import golden from "../asset/golden.jpg"
 
 import Banner from "../components/banner";
 
@@ -23,6 +24,22 @@ return(
         <section>
             <h3>Featured Products</h3>
             <p>Eget Est Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+<div className="grid grid-cols-5 grid-rows-5 gap-10">
+    <div >
+        <img src='' alt="" />
+    </div>
+    <div >
+    <img src={golden}    alt="" />
+    </div>
+    <div >
+    <img src=''alt="" />
+    </div>
+    <div >
+    <img src="" alt="" />
+    </div>
+</div>
+    
         </section>
         <section>
             <h4>Our Blogs</h4>
